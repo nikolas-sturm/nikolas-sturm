@@ -70,7 +70,8 @@
 My SWE journey began in 2021, when I started expirimenting with JS and CSS by making a personal portfolio website. Soon after, I started digging into the world of Python.
 Since then I've been coding on and off, but in 2023 I started to take it more seriously and began my first real project.<br/>
 This project, <strong><a href="https://github.com/cryptotou">Cryptorii</a></strong>, is work-in-progress to this day and I've sunk hundreds if not thousands of hours into it.<br/>
-At the end of 2024 I decided to expand my horizons and started to learn Rust. This has resulted in <strong><a href="https://github.com/nikolas-sturm/WOMP">WOMP</a></strong>, a project that I'm very proud of.<br/>
+At the end of 2024 I decided to expand my horizons and started to learn Rust.<br/>
+This has resulted in <strong><a href="https://github.com/nikolas-sturm/WOMP">WOMP</a></strong>, a project that I'm very proud of.<br/>
 Recently I've been working on creating my own markup language, called <strong>FUML</strong>, which I will hopefully release later this year.
 
 
