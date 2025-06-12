@@ -50,6 +50,9 @@
                 src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4"
                 alt="Most used Languages" />
         </picture>
+        <img
+            src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark"
+            alt="Most used Languages" />
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/nikolas-sturm">
