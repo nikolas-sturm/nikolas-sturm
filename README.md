@@ -43,16 +43,13 @@
     <a href="https://github.com/nikolas-sturm">
         <picture>
             <source media="(prefers-color-scheme: dark)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark">
             <source media="(prefers-color-scheme: light)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4">
             <img 
-                src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4"
+                src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4"
                 alt="Most used Languages" />
         </picture>
-        <img
-            src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark"
-            alt="Most used Languages" />
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/nikolas-sturm">
@@ -76,31 +73,23 @@
     Recently I've been working on creating my own markup language, called <strong>FUML</strong>, which I will hopefully release later this year.
 </p>
 <br/>
-<h2 align="center">
-    About Me
-</h2>
 
+## About Me
 > My current life:
 - 🔬 Studying International Finance for a Bachelor's degree at the Saxion University of Applied Sciences.
 - 💻 Working non-stop on my projects.
 - 🏢 Looking for internships. Feel free to contact me per Email or LinkedIn!
 
 
-<h2 align="center">
-    My Passions
-</h2>
-
+## My Passions
 > I'm a big fan of the following:
 - 💰 Finance & Crypto
 - 🤖 AI
 - 🎮 Gaming
 
-<h2 align="center">
-    Favorite Tech
-</h2>
-
-> Tools, languages, and other things that I like to work with.
-- ![Rust Icon](/assets/rust.svg)&nbsp;&nbsp;<a href="https://www.rust-lang.org/"><strong>Rust</strong></a>
-- ![Python Icon](/assets/python.svg)&nbsp;&nbsp;<a href="https://www.python.org"><strong>Python</strong></a>
-- ![TypeScript Icon](/assets/typescript.svg)&nbsp;&nbsp;<a href="https://www.typescriptlang.org/"><strong>TypeScript</strong></a>
-- ![React Icon](/assets/react.svg)&nbsp;&nbsp;<a href="https://www.react.dev/"><strong>React</strong></a>
+## Favorite Tech
+> Tools, languages, and other things that I like to work with:
+- ![Rust Icon](/assets/rust.svg)&nbsp;&nbsp;Rust
+- ![Python Icon](/assets/python.svg)&nbsp;&nbsp;Python
+- ![TypeScript Icon](/assets/typescript.svg)&nbsp;&nbsp;TypeScript
+- ![React Icon](/assets/react.svg)&nbsp;&nbsp;React
