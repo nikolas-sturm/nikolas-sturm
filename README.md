@@ -43,7 +43,7 @@
     <a href="https://github.com/nikolas-sturm">
         <picture>
             <source media="(prefers-color-scheme: dark)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript%2Cjupyter%20notebook%2Ccss%2Cscss%2Chtml%2Cjulia&size_weight=0.6&count_weight=0.4&theme=dark">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript%2Cjupyter%20notebook%2Ccss%2Cscss%2Chtml%2Cjulia&size_weight=0.6&count_weight=0.4&theme=github_dark">
             <source media="(prefers-color-scheme: light)"
                 srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript%2Cjupyter%20notebook%2Ccss%2Cscss%2Chtml%2Cjulia&size_weight=0.6&count_weight=0.4">
             <img 
@@ -55,7 +55,7 @@
     <a href="https://github.com/nikolas-sturm">
         <picture>
             <source media="(prefers-color-scheme: dark)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/?username=nikolas-sturm&show_icons=true&locale=en&theme=dark&line_height=28">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/?username=nikolas-sturm&show_icons=true&locale=en&theme=github_dark&line_height=28">
             <source media="(prefers-color-scheme: light)"
                 srcset="https://nikolas-sturm-github-stats.vercel.app/api/?username=nikolas-sturm&show_icons=true&locale=en&line_height=28">
             <img 
