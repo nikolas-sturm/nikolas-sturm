@@ -43,11 +43,11 @@
     <a href="https://github.com/nikolas-sturm">
         <picture>
             <source media="(prefers-color-scheme: dark)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4&theme=dark">
             <source media="(prefers-color-scheme: light)"
-                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4">
+                srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4">
             <img 
-                src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,jupyter%20notebook,css,scss,html,julia&size_weight=0.6&count_weight=0.4"
+                src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript,css,scss,html,julia&size_weight=0.6&count_weight=0.4"
                 alt="Most used Languages" />
         </picture>
         <img
