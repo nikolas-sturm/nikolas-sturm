@@ -1,0 +1,151 @@
+<svg fill="none" viewBox="0 0 480 72" width="480" height="72" xmlns="http://www.w3.org/2000/svg">
+	<title>Nikolas Sturm on LinkedIn</title>
+	<foreignObject width="480" height="72">
+		<div xmlns="http://www.w3.org/1999/xhtml" class="panel">
+			<style>
+				@keyframes scan-boot {
+					0% { opacity: 0; transform: translateY(-428px); }
+					12% { opacity: 0.9; }
+					85% { opacity: 0.65; }
+					100% { opacity: 0; transform: translateY(342px); }
+				}
+
+				@keyframes grid-boot {
+					from { opacity: 0; transform: scale(1.04); }
+					to { opacity: 0.7; transform: scale(1); }
+				}
+
+				@keyframes reveal {
+					from { opacity: 0; filter: blur(8px); transform: translateY(12px); }
+					to { opacity: 1; filter: blur(0); transform: translateY(0); }
+				}
+
+				* { box-sizing: border-box; }
+
+				.panel {
+					--paper: #f3f0e8;
+					--ink: #111827;
+					--muted: #4f5968;
+					--accent: #3157ff;
+					--signal: #ff4d6d;
+					--line: rgba(17, 24, 39, 0.14);
+					position: relative;
+					display: flex;
+					width: 480px;
+					height: 72px;
+					align-items: center;
+					overflow: hidden;
+					border: solid var(--line);
+					border-width: 0 1px 0 0;
+					border-radius: 0;
+					background: var(--paper);
+					color: var(--ink);
+					font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+				}
+
+				.panel::before {
+					position: absolute;
+					inset: 0;
+					background-image:
+						linear-gradient(var(--line) 1px, transparent 1px),
+						linear-gradient(90deg, var(--line) 1px, transparent 1px);
+					background-position: -1px -17px;
+					background-size: 48px 48px;
+					content: "";
+					mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.34), transparent 52%);
+					animation: grid-boot 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+				}
+
+				.panel::after {
+					position: absolute;
+					top: 0;
+					right: 0;
+					left: 0;
+					z-index: 3;
+					height: 22px;
+					background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--signal) 42%, transparent), transparent);
+					box-shadow: 0 7px 28px color-mix(in srgb, var(--signal) 16%, transparent);
+					content: "";
+					pointer-events: none;
+					animation: scan-boot 2.65s cubic-bezier(0.3, 0, 0.3, 1) both;
+				}
+
+				.content {
+					position: relative;
+					z-index: 1;
+					display: flex;
+					width: 100%;
+					align-items: center;
+					justify-content: space-between;
+					padding: 0 28px 0 36px;
+					animation: reveal 520ms 1040ms cubic-bezier(0.16, 1, 0.3, 1) both;
+				}
+
+				.action { display: flex; align-items: center; gap: 12px; }
+
+				.icon {
+					display: grid;
+					width: 34px;
+					height: 34px;
+					place-items: center;
+					border: 1px solid var(--line);
+					border-radius: 10px;
+					background: color-mix(in srgb, var(--paper) 82%, var(--ink));
+					color: var(--accent);
+				}
+
+				.icon svg { width: 14px; height: 16px; fill: currentColor; }
+				.copy { display: flex; flex-direction: column; gap: 3px; }
+
+				.eyebrow {
+					color: var(--muted);
+					font-size: 8px;
+					font-weight: 800;
+					letter-spacing: 0.16em;
+					text-transform: uppercase;
+				}
+
+				strong { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+				.destination {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					color: var(--muted);
+					font-size: 10px;
+					font-weight: 700;
+					letter-spacing: 0.08em;
+				}
+
+				.arrow { color: var(--accent); font-size: 18px; line-height: 1; }
+
+				@media (prefers-color-scheme: dark) {
+					.panel {
+						--paper: #07111f;
+						--ink: #f6f7f2;
+						--muted: #9ca9ba;
+						--accent: #b6ff4a;
+						--signal: #68e1ff;
+						--line: rgba(225, 235, 245, 0.13);
+					}
+				}
+
+				@media (prefers-reduced-motion: reduce) {
+					.panel::before { opacity: 0.7; animation: none; }
+					.panel::after { display: none; }
+					.content { animation: none; }
+				}
+			</style>
+
+			<div class="content">
+				<div class="action">
+					<span class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3C448 46.5 433.6 32 416 32zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96s38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5zM384.3 416h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
+					</span>
+					<span class="copy"><span class="eyebrow">Connect / 02</span><strong>LinkedIn</strong></span>
+				</div>
+				<span class="destination">nikolas-sturm <span class="arrow">↗</span></span>
+			</div>
+		</div>
+	</foreignObject>
+</svg>

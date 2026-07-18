@@ -44,7 +44,7 @@ jobs:
         working-directory: .stats-generator
 
       - name: Generate SVG
-        run: npm run generate -- "$GITHUB_WORKSPACE/assets/stats.svg"
+        run: npm run generate -- "$GITHUB_WORKSPACE/assets/stats.svg" "$GITHUB_WORKSPACE/assets/stats-mobile.svg"
         working-directory: .stats-generator
         env:
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
@@ -52,7 +52,7 @@ jobs:
       - name: Commit changed SVG
         shell: bash
         run: |
-          git add -- assets/stats.svg
+          git add -- assets/stats.svg assets/stats-mobile.svg
           if git diff --cached --quiet; then
             exit 0
           fi

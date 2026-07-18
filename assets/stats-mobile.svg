@@ -1,0 +1,353 @@
+<svg width="720" height="380" viewBox="0 0 720 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
+  <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 22 commits in 2026, 63 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
+  <foreignObject width="720" height="380">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame mobile">
+      <style>
+        @keyframes grid-boot {
+          from { opacity: 0; transform: scale(1.04); }
+          to { opacity: 0.7; transform: scale(1); }
+        }
+
+        @keyframes scan-boot {
+          0% { opacity: 0; transform: translateY(var(--scan-from)); }
+          12% { opacity: 0.9; }
+          85% { opacity: 0.65; }
+          100% { opacity: 0; transform: translateY(var(--scan-to)); }
+        }
+
+        @keyframes reveal {
+          from { opacity: 0; filter: blur(8px); transform: translateY(12px); }
+          to { opacity: 1; filter: blur(0); transform: translateY(0); }
+        }
+
+        * { box-sizing: border-box; }
+
+        .frame {
+          --paper: #f3f0e8;
+          --ink: #111827;
+          --muted: #4f5968;
+          --accent: #3157ff;
+          --signal: #ff4d6d;
+          --line: rgba(17, 24, 39, 0.14);
+          --grid-size: 48px;
+          --grid-y: 7px;
+          --grid-fade: 76%;
+          --scan-from: -500px;
+          --scan-to: 270px;
+          --language-delay: 1960ms;
+          --stats-delay: 2080ms;
+          position: relative;
+          width: 960px;
+          height: 240px;
+          overflow: hidden;
+          border: solid var(--line);
+          border-width: 0 1px 1px;
+          border-radius: 0 0 24px 24px;
+          background: var(--paper);
+          color: var(--ink);
+          font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .frame.mobile {
+          --grid-size: 56px;
+          --grid-y: 23px;
+          --grid-fade: 90%;
+          --scan-from: -680px;
+          --scan-to: 410px;
+          --language-delay: 2140ms;
+          --stats-delay: 2260ms;
+          width: 720px;
+          height: 380px;
+        }
+
+        .frame::before {
+          position: absolute;
+          inset: 0;
+          background-image:
+            linear-gradient(var(--line) 1px, transparent 1px),
+            linear-gradient(90deg, var(--line) 1px, transparent 1px);
+          background-position: -1px var(--grid-y);
+          background-size: var(--grid-size) var(--grid-size);
+          content: "";
+          mask-image: linear-gradient(90deg, black, transparent var(--grid-fade));
+          animation: grid-boot 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+
+        .frame::after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 5;
+          height: 22px;
+          background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--signal) 42%, transparent), transparent);
+          box-shadow: 0 7px 28px color-mix(in srgb, var(--signal) 16%, transparent);
+          content: "";
+          pointer-events: none;
+          animation: scan-boot 2.65s cubic-bezier(0.3, 0, 0.3, 1) both;
+        }
+
+        .mobile::after {
+          height: 28px;
+          box-shadow: 0 9px 34px color-mix(in srgb, var(--signal) 16%, transparent);
+          animation-duration: 2.8s;
+        }
+
+        .content {
+          position: relative;
+          z-index: 2;
+          display: grid;
+          height: 100%;
+          grid-template-columns: 1.05fr 0.95fr;
+          gap: 68px;
+          padding: 28px 55px 25px;
+        }
+
+        .mobile .content {
+          grid-template-columns: 1fr;
+          grid-template-rows: 116px 1fr;
+          gap: 25px;
+          padding: 27px 42px 26px;
+        }
+
+        section { min-width: 0; }
+        .languages { animation: reveal 600ms var(--language-delay) cubic-bezier(0.16, 1, 0.3, 1) both; }
+        .snapshot { animation: reveal 600ms var(--stats-delay) cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+        .heading {
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between;
+          gap: 16px;
+        }
+
+        .eyebrow {
+          color: var(--accent);
+          font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+          font-size: 9px;
+          font-weight: 800;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+        }
+
+        h2 {
+          margin: 4px 0 0;
+          font-size: 25px;
+          font-weight: 850;
+          letter-spacing: -0.045em;
+          line-height: 1;
+        }
+
+        .mobile .eyebrow { font-size: 12px; }
+        .mobile h2 { margin-top: 3px; font-size: 30px; }
+
+        .distribution {
+          display: flex;
+          height: 9px;
+          margin-top: 19px;
+          overflow: hidden;
+          border-radius: 999px;
+          background: color-mix(in srgb, var(--paper) 72%, var(--ink));
+        }
+
+        .segment { width: var(--share); background: var(--language-color); }
+
+        .language-list {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 12px 20px;
+          margin-top: 17px;
+        }
+
+        .language {
+          display: grid;
+          grid-template-columns: 8px minmax(0, 1fr) auto;
+          align-items: center;
+          gap: 7px;
+          min-width: 0;
+          font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+          font-size: 9px;
+          font-weight: 750;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+        }
+
+        .language-dot {
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: var(--language-color);
+          box-shadow: 0 0 8px color-mix(in srgb, var(--language-color) 45%, transparent);
+        }
+
+        .language-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .percentage { color: var(--muted); font-size: 8px; }
+
+        .mobile .distribution { height: 11px; margin-top: 15px; }
+        .mobile .language-list { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+        .mobile .language {
+          grid-template-columns: 9px minmax(0, 1fr);
+          gap: 7px;
+          font-size: 11px;
+        }
+        .mobile .language-dot { width: 8px; height: 8px; }
+        .mobile .percentage { display: none; }
+
+        .metrics {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 22px 24px;
+          margin-top: 22px;
+        }
+
+        .metric {
+          position: relative;
+          display: flex;
+          min-width: 0;
+          flex-direction: column;
+          gap: 2px;
+          padding-left: 10px;
+        }
+
+        .metric::before {
+          position: absolute;
+          top: 3px;
+          bottom: 3px;
+          left: 0;
+          width: 2px;
+          border-radius: 2px;
+          background: var(--accent);
+          content: "";
+          opacity: 0.7;
+        }
+
+        .label {
+          overflow: hidden;
+          color: var(--muted);
+          font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+          font-size: 8px;
+          font-weight: 800;
+          letter-spacing: 0.1em;
+          text-overflow: ellipsis;
+          text-transform: uppercase;
+          white-space: nowrap;
+        }
+
+        .value {
+          font-size: 27px;
+          font-weight: 850;
+          letter-spacing: -0.04em;
+          line-height: 1;
+        }
+
+        .detail {
+          color: var(--muted);
+          font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+          font-size: 7px;
+          font-weight: 750;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+
+        .rank .value { color: var(--accent); }
+
+        .mobile .metrics { gap: 20px 30px; margin-top: 18px; }
+        .mobile .metric { gap: 3px; padding-left: 13px; }
+        .mobile .metric::before { width: 3px; }
+        .mobile .label { font-size: 11px; }
+        .mobile .value { font-size: 32px; }
+        .mobile .detail { font-size: 9px; }
+
+        @media (prefers-color-scheme: dark) {
+          .frame {
+            --paper: #07111f;
+            --ink: #f6f7f2;
+            --muted: #9ca9ba;
+            --accent: #b6ff4a;
+            --signal: #68e1ff;
+            --line: rgba(225, 235, 245, 0.13);
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          *, *::before, *::after { animation: none !important; }
+          .frame::before { opacity: 0.7; }
+          .frame::after { display: none; }
+        }
+      </style>
+
+      <main class="content">
+        <section class="languages" id="languages">
+          <div class="heading">
+            <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
+          </div>
+          <div class="distribution"><span class="segment" style="--share: 72.9%; --language-color: #dea584"></span><span class="segment" style="--share: 18.9%; --language-color: #3178c6"></span><span class="segment" style="--share: 3.1%; --language-color: #178600"></span><span class="segment" style="--share: 2.8%; --language-color: #89e051"></span><span class="segment" style="--share: 2.3%; --language-color: #3572A5"></span></div>
+          <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
+      <span class="language-dot"></span>
+      <span class="language-name">Rust</span>
+      <span class="percentage">72.9%</span>
+    </span>
+<span class="language" data-language="TypeScript" style="--index: 1; --language-color: #3178c6">
+      <span class="language-dot"></span>
+      <span class="language-name">TypeScript</span>
+      <span class="percentage">18.9%</span>
+    </span>
+<span class="language" data-language="C#" style="--index: 2; --language-color: #178600">
+      <span class="language-dot"></span>
+      <span class="language-name">C#</span>
+      <span class="percentage">3.1%</span>
+    </span>
+<span class="language" data-language="Shell" style="--index: 3; --language-color: #89e051">
+      <span class="language-dot"></span>
+      <span class="language-name">Shell</span>
+      <span class="percentage">2.8%</span>
+    </span>
+<span class="language" data-language="Python" style="--index: 4; --language-color: #3572A5">
+      <span class="language-dot"></span>
+      <span class="language-name">Python</span>
+      <span class="percentage">2.3%</span>
+    </span></div>
+        </section>
+
+        <section class="snapshot" id="profile-stats">
+          <div class="heading">
+            <div><span class="eyebrow">GitHub / snapshot</span><h2>Profile stats</h2></div>
+          </div>
+          <div class="metrics">
+            <div class="metric ">
+    <span class="label">Total stars</span>
+    <span class="value">23</span>
+    
+  </div>
+            <div class="metric ">
+    <span class="label">Commits / 2026</span>
+    <span class="value">22</span>
+    
+  </div>
+            <div class="metric ">
+    <span class="label">Pull requests</span>
+    <span class="value">63</span>
+    
+  </div>
+            <div class="metric ">
+    <span class="label">Issues</span>
+    <span class="value">33</span>
+    
+  </div>
+            <div class="metric ">
+    <span class="label">Contributed repos</span>
+    <span class="value">4</span>
+    
+  </div>
+            <div class="metric rank">
+    <span class="label">Rank</span>
+    <span class="value">B-</span>
+    <span class="detail">Top 65.5%</span>
+  </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </foreignObject>
+</svg>
