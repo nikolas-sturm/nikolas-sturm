@@ -1,0 +1,62 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Checkout generator
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: nikolas-sturm/svg-stats
+          path: .stats-generator
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version-file: .stats-generator/.node-version
+          cache: npm
+          cache-dependency-path: .stats-generator/package-lock.json
+
+      - name: Install generator
+        run: npm ci
+        working-directory: .stats-generator
+
+      - name: Check generator
+        run: npm run check
+        working-directory: .stats-generator
+
+      - name: Generate SVG
+        run: npm run generate -- "$GITHUB_WORKSPACE/assets/stats.svg"
+        working-directory: .stats-generator
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Commit changed SVG
+        shell: bash
+        run: |
+          git add -- assets/stats.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile stats"
+          git push

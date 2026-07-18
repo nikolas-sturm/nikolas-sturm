@@ -1,0 +1,78 @@
+<svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
+  <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 18 commits in 2026, 63 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
+  <style>
+    .background { fill: #ffffff; stroke: #d0d7de; }
+    .divider { stroke: #d0d7de; }
+    text { fill: #111827; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; }
+    .section-title { font-size: 18px; font-weight: 650; }
+    .percentage, .label { fill: #57606a; }
+    .label { font-size: 12px; }
+    .value { font-size: 20px; font-weight: 650; }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #0d1117; stroke: #30363d; }
+      .divider { stroke: #30363d; }
+      text { fill: #f0f6fc; }
+      .percentage, .label { fill: #8b949e; }
+    }
+  </style>
+  <rect class="background" x="0.5" y="0.5" width="959" height="239" rx="12" />
+  <line class="divider" x1="480" y1="24" x2="480" y2="216" />
+
+  <g id="languages">
+    <text class="section-title" x="32" y="36">Most used languages</text>
+    <g class="language" data-language="Rust">
+      <circle cx="34" cy="68" r="5" fill="#dea584" />
+      <text x="48" y="72">Rust</text>
+      <text class="percentage" x="448" y="72" text-anchor="end">72.9%</text>
+    </g>
+<g class="language" data-language="TypeScript">
+      <circle cx="34" cy="97" r="5" fill="#3178c6" />
+      <text x="48" y="101">TypeScript</text>
+      <text class="percentage" x="448" y="101" text-anchor="end">18.9%</text>
+    </g>
+<g class="language" data-language="C#">
+      <circle cx="34" cy="126" r="5" fill="#178600" />
+      <text x="48" y="130">C#</text>
+      <text class="percentage" x="448" y="130" text-anchor="end">3.1%</text>
+    </g>
+<g class="language" data-language="Shell">
+      <circle cx="34" cy="155" r="5" fill="#89e051" />
+      <text x="48" y="159">Shell</text>
+      <text class="percentage" x="448" y="159" text-anchor="end">2.8%</text>
+    </g>
+<g class="language" data-language="Python">
+      <circle cx="34" cy="184" r="5" fill="#3572A5" />
+      <text x="48" y="188">Python</text>
+      <text class="percentage" x="448" y="188" text-anchor="end">2.3%</text>
+    </g>
+  </g>
+
+  <g id="profile-stats">
+    <text class="section-title" x="512" y="36">GitHub stats</text>
+    <g class="metric " transform="translate(512 72)">
+    <text class="label" x="0" y="0">Total stars</text>
+    <text class="value" x="0" y="25">23</text>
+  </g>
+    <g class="metric " transform="translate(720 72)">
+    <text class="label" x="0" y="0">Commits (2026)</text>
+    <text class="value" x="0" y="25">18</text>
+  </g>
+    <g class="metric " transform="translate(512 132)">
+    <text class="label" x="0" y="0">Pull requests</text>
+    <text class="value" x="0" y="25">63</text>
+  </g>
+    <g class="metric " transform="translate(720 132)">
+    <text class="label" x="0" y="0">Issues</text>
+    <text class="value" x="0" y="25">33</text>
+  </g>
+    <g class="metric " transform="translate(512 192)">
+    <text class="label" x="0" y="0">Contributed repositories</text>
+    <text class="value" x="0" y="25">4</text>
+  </g>
+    <g class="metric rank" transform="translate(720 192)">
+    <text class="label" x="0" y="0">Rank</text>
+    <text class="value" x="0" y="25">B- / top 65.7%</text>
+  </g>
+  </g>
+</svg>
