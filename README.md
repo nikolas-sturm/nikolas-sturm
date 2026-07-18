@@ -1,19 +1,9 @@
-<p align="center">
-    <a href="https://git.io/typing-svg">
-        <picture>
-            <source media="(prefers-color-scheme: dark)"
-                srcset="https://readme-typing-svg.demolab.com?font=Space+Mono&size=32&duration=3000&pause=500&color=f0f6fc&center=true&vCenter=true&width=520&lines=Welcome+to+my+profile!;My+name+is+Nikolas+Sturm%2C;Nice+to+meet+you!">
-            <source media="(prefers-color-scheme: light)"
-                srcset="https://readme-typing-svg.demolab.com?font=Space+Mono&size=32&duration=3000&pause=500&color=1F2328&center=true&vCenter=true&width=520&lines=Welcome+to+my+profile!;My+name+is+Nikolas+Sturm%2C;Nice+to+meet+you!">
-            <img 
-                src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=32&duration=3000&pause=500&color=1F2328&center=true&vCenter=true&width=520&lines=Welcome+to+my+profile!;My+name+is+Nikolas+Sturm%2C;Nice+to+meet+you!" alt="Typing Introduction" />
-        </picture>
-    </a>
-</p>
-
 <h3 align="center">
-    I'm a Full-Stack developer who currently likes to work with<br/><a href="https://www.rust-lang.org/">Rust</a>, <a href="https://www.typescriptlang.org/">TypeScript</a> (React, Next.js, Vite, TailwindCSS), and <a href="https://www.python.org/">Python</a> among others.
+    I like to work with:<br/><br/><a href="https://www.rust-lang.org/"><img src="./assets/rust.svg" alt="Rust Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"> Rust</a>&nbsp;&nbsp;&amp;&nbsp;&nbsp;<a href="https://www.python.org/"><img src="./assets/python.svg" alt="Python Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"> Python</a><br/><br/><a href="https://astro.build/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/astro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/astro-light.svg"><img src="assets/astro-light.svg" alt="Astro Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"/></picture> Astro</a>&nbsp;&nbsp;│&nbsp;&nbsp;<a href="https://nextjs.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nextjs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/nextjs-light.svg"><img src="assets/nextjs-light.svg" alt="Next.js Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"/></picture> Next.js</a>&nbsp;&nbsp;+&nbsp;&nbsp;<a href="https://react.dev/"><img src="./assets/react.svg" alt="React Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"> React</a>&nbsp;&nbsp;+&nbsp;&nbsp;<a href="https://www.typescriptlang.org/"><img src="./assets/typescript.svg" alt="TypeScript Icon" style="height: 1.2em; width: auto; vertical-align: text-top;"> TypeScript</a>
 </h3>
+
+---
+
 <br/>
 <p align="center">
   <a href="https://www.linkedin.com/in/nikolas-sturm/" target="_blank">
@@ -23,10 +13,9 @@
         <source media="(prefers-color-scheme: light)"
             srcset="assets/linkedin-light.svg">
         <img 
-            src="assets/linkedin-light.svg" alt="LinkedIn" />
-    </picture>
+            src="assets/linkedin-light.svg" alt="LinkedIn" /></picture>
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="mailto:code@nsturm.me" target="_blank">
     <picture>
         <source media="(prefers-color-scheme: dark)"
@@ -34,10 +23,11 @@
         <source media="(prefers-color-scheme: light)"
             srcset="assets/mail-light.svg">
         <img 
-            src="assets/mail-light.svg" alt="Mail" />
-    </picture>
-  </a>
+            src="assets/mail-light.svg" alt="Mail" /></picture></a>
 </p>
+
+---
+
 <br/>
 <p align="center">
     <a href="https://github.com/nikolas-sturm">
@@ -48,8 +38,7 @@
                 srcset="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript%2Cjupyter%20notebook%2Ccss%2Cscss%2Chtml%2Cjulia&size_weight=0.6&count_weight=0.4">
             <img 
                 src="https://nikolas-sturm-github-stats.vercel.app/api/top-langs?username=nikolas-sturm&locale=en&layout=donut&langs_count=5&hide=javascript%2Cjupyter%20notebook%2Ccss%2Cscss%2Chtml%2Cjulia&size_weight=0.6&count_weight=0.4"
-                alt="Most used Languages" />
-        </picture>
+                alt="Most used Languages" /></picture>
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/nikolas-sturm">
@@ -60,37 +49,7 @@
                 srcset="https://nikolas-sturm-github-stats.vercel.app/api/?username=nikolas-sturm&show_icons=true&locale=en&line_height=28">
             <img 
                 src="https://nikolas-sturm-github-stats.vercel.app/api/?username=nikolas-sturm&show_icons=true&locale=en&line_height=28"
-                alt="GitHub Stats" />
-        </picture>
+                alt="GitHub Stats" /></picture>
     </a>
 </p>
 <br/>
-
-
-My SWE journey began in 2021, when I started expirimenting with JS and CSS by making a personal portfolio website. Soon after, I started digging into the world of Python.
-Since then I've been coding on and off, but in 2023 I started to take it more seriously and began my first real project.<br/>
-This project, <strong><a href="https://github.com/cryptotou">Cryptorii</a></strong>, is work-in-progress to this day and I've sunk hundreds if not thousands of hours into it.<br/>
-At the end of 2024 I decided to expand my horizons and started to learn Rust.<br/>
-This has resulted in <strong><a href="https://github.com/nikolas-sturm/WOMP">WOMP</a></strong>, a project that I'm very proud of.<br/>
-Recently I've been working on creating my own markup language, called <strong>FUML</strong>, which I will hopefully release later this year.
-
-
-## About Me
-> My current life:
-- 🔬 Studying International Finance for a Bachelor's degree at the Saxion University of Applied Sciences.
-- 💻 Working non-stop on my projects.
-- 🏢 Looking for internships. Feel free to contact me per Email or LinkedIn!
-
-
-## My Passions
-> I'm a big fan of the following:
-- 💰 Finance & Crypto
-- 🤖 AI
-- 🎮 Gaming
-
-## Favorite Tech
-> Tools, languages, and other things that I like to work with:
-- ![Rust Icon](/assets/rust.svg)&nbsp;&nbsp;Rust
-- ![Python Icon](/assets/python.svg)&nbsp;&nbsp;Python
-- ![TypeScript Icon](/assets/typescript.svg)&nbsp;&nbsp;TypeScript
-- ![React Icon](/assets/react.svg)&nbsp;&nbsp;React
