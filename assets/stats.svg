@@ -1,6 +1,6 @@
 <svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
   <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
-  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 21 commits in 2026, 33 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 21 commits in 2026, 63 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
   <style>
     .background { fill: #ffffff; stroke: #d0d7de; }
     .divider { stroke: #d0d7de; }
@@ -60,7 +60,7 @@
   </g>
     <g class="metric " transform="translate(512 132)">
     <text class="label" x="0" y="0">Pull requests</text>
-    <text class="value" x="0" y="25">33</text>
+    <text class="value" x="0" y="25">63</text>
   </g>
     <g class="metric " transform="translate(720 132)">
     <text class="label" x="0" y="0">Issues</text>
@@ -72,7 +72,7 @@
   </g>
     <g class="metric rank" transform="translate(720 192)">
     <text class="label" x="0" y="0">Rank</text>
-    <text class="value" x="0" y="25">B- / top 71.0%</text>
+    <text class="value" x="0" y="25">B- / top 65.6%</text>
   </g>
   </g>
 </svg>
