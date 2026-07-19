@@ -4,20 +4,20 @@
 		<div xmlns="http://www.w3.org/1999/xhtml" class="panel">
 			<style>
 				@keyframes scan-boot {
-					0% { opacity: 0; transform: translateY(-428px); }
+					0% { opacity: 0; transform: translateY(-668px); }
 					12% { opacity: 0.9; }
 					85% { opacity: 0.65; }
-					100% { opacity: 0; transform: translateY(342px); }
+					100% { opacity: 0; transform: translateY(102px); }
 				}
 
 				@keyframes grid-boot {
 					from { opacity: 0; transform: scale(1.04); }
-					to { opacity: 0.7; transform: scale(1); }
+					to { opacity: 0.8; transform: none; }
 				}
 
 				@keyframes reveal {
 					from { opacity: 0; filter: blur(8px); transform: translateY(12px); }
-					to { opacity: 1; filter: blur(0); transform: translateY(0); }
+					to { opacity: 1; filter: none; transform: none; }
 				}
 
 				* { box-sizing: border-box; }
@@ -35,9 +35,8 @@
 					height: 72px;
 					align-items: center;
 					overflow: hidden;
-					border: solid var(--line);
-					border-width: 0 1px 0 0;
-					border-radius: 0;
+					box-shadow: inset -1px 0 var(--line), inset 0 -1px var(--line);
+					border-radius: 0 0 24px;
 					background: var(--paper);
 					color: var(--ink);
 					font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
@@ -49,7 +48,7 @@
 					background-image:
 						linear-gradient(var(--line) 1px, transparent 1px),
 						linear-gradient(90deg, var(--line) 1px, transparent 1px);
-					background-position: -1px -17px;
+					background-position: 0 -17px;
 					background-size: 48px 48px;
 					content: "";
 					mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.34), transparent 52%);
@@ -72,13 +71,14 @@
 
 				.content {
 					position: relative;
+					top: -12px;
 					z-index: 1;
 					display: flex;
 					width: 100%;
 					align-items: center;
 					justify-content: space-between;
 					padding: 0 28px 0 36px;
-					animation: reveal 520ms 1040ms cubic-bezier(0.16, 1, 0.3, 1) both;
+					animation: reveal 520ms 1960ms cubic-bezier(0.16, 1, 0.3, 1) both;
 				}
 
 				.action { display: flex; align-items: center; gap: 12px; }
@@ -131,7 +131,7 @@
 				}
 
 				@media (prefers-reduced-motion: reduce) {
-					.panel::before { opacity: 0.7; animation: none; }
+					.panel::before { opacity: 0.8; animation: none; }
 					.panel::after { display: none; }
 					.content { animation: none; }
 				}

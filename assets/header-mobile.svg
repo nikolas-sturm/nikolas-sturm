@@ -5,7 +5,7 @@
 			<style>
 				@keyframes arrive {
 					from { opacity: 0; transform: translateY(18px); }
-					to { opacity: 1; transform: translateY(0); }
+					to { opacity: 1; transform: none; }
 				}
 
 				@keyframes orbit {
@@ -24,7 +24,7 @@
 
 				@keyframes grid-boot {
 					from { opacity: 0; transform: scale(1.05); }
-					to { opacity: 0.7; transform: scale(1); }
+					to { opacity: 0.8; transform: none; }
 				}
 
 				@keyframes scan-boot {
@@ -36,12 +36,12 @@
 
 				@keyframes reveal {
 					from { opacity: 0; filter: blur(10px); transform: translateY(16px); }
-					to { opacity: 1; filter: blur(0); transform: translateY(0); }
+					to { opacity: 1; filter: none; transform: none; }
 				}
 
 				@keyframes resolve {
 					0% { opacity: 0; filter: blur(9px); clip-path: inset(100% 0 0 round 50%); }
-					100% { opacity: 1; filter: blur(0); clip-path: inset(0 round 50%); }
+					100% { opacity: 1; filter: none; clip-path: inset(0 round 50%); }
 				}
 
 				@keyframes scanner {
@@ -53,7 +53,7 @@
 
 				@keyframes emerge {
 					from { opacity: 0; transform: scale(0.7) rotate(-20deg); }
-					to { opacity: 1; transform: scale(1) rotate(0); }
+					to { opacity: 1; transform: none; }
 				}
 
 				@keyframes trace {
@@ -62,7 +62,7 @@
 
 				@keyframes node-boot {
 					0%, 65% { opacity: 0; transform: scale(0.7); }
-					100% { opacity: 1; transform: scale(1); }
+					100% { opacity: 1; transform: none; }
 				}
 
 				@keyframes boot-off {
@@ -130,7 +130,7 @@
 					display: flex;
 					align-items: center;
 					justify-content: space-between;
-					padding: 34px 38px 0;
+					padding: 34px 38px 0 34px;
 					font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
 					font-size: 17px;
 					font-weight: 800;
@@ -190,7 +190,7 @@
 				.hero {
 					position: relative;
 					z-index: 2;
-					padding: 77px 0 0 42px;
+					padding: 57px 0 0 34px;
 				}
 
 				.kicker {
@@ -319,7 +319,7 @@
 					position: absolute;
 					right: 42px;
 					bottom: 30px;
-					left: 42px;
+					left: 34px;
 					z-index: 2;
 					display: flex;
 					flex-direction: column;
@@ -385,7 +385,7 @@
 
 				@media (prefers-reduced-motion: reduce) {
 					*, *::before, *::after { animation: none !important; }
-					.frame::before { opacity: 0.7; }
+					.frame::before { opacity: 0.8; }
 					.frame::after { display: none; }
 					.orbit::before { transform: rotate(132deg) translateX(117px); }
 					.status-copy .booting { display: none; }
