@@ -1,6 +1,6 @@
 <svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
   <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
-  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 25 commits in 2026, 63 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 26 commits in 2026, 63 pull requests, 33 issues, 4 contributed repositories, rank B-.</desc>
   <foreignObject width="960" height="240">
     <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
       <style>
@@ -282,16 +282,16 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 72.9%; --language-color: #dea584"></span><span class="segment" style="--share: 18.9%; --language-color: #3178c6"></span><span class="segment" style="--share: 3.1%; --language-color: #178600"></span><span class="segment" style="--share: 2.8%; --language-color: #89e051"></span><span class="segment" style="--share: 2.3%; --language-color: #3572A5"></span></div>
+          <div class="distribution"><span class="segment" style="--share: 72.8%; --language-color: #dea584"></span><span class="segment" style="--share: 19.0%; --language-color: #3178c6"></span><span class="segment" style="--share: 3.1%; --language-color: #178600"></span><span class="segment" style="--share: 2.8%; --language-color: #89e051"></span><span class="segment" style="--share: 2.3%; --language-color: #3572A5"></span></div>
           <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
       <span class="language-dot"></span>
       <span class="language-name">Rust</span>
-      <span class="percentage">72.9%</span>
+      <span class="percentage">72.8%</span>
     </span>
 <span class="language" data-language="TypeScript" style="--index: 1; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">18.9%</span>
+      <span class="percentage">19.0%</span>
     </span>
 <span class="language" data-language="C#" style="--index: 2; --language-color: #178600">
       <span class="language-dot"></span>
@@ -322,7 +322,7 @@
   </div>
             <div class="metric ">
     <span class="label">Commits / 2026</span>
-    <span class="value">25</span>
+    <span class="value">26</span>
     
   </div>
             <div class="metric ">
