@@ -282,31 +282,31 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 73.0%; --language-color: #dea584"></span><span class="segment" style="--share: 18.8%; --language-color: #3178c6"></span><span class="segment" style="--share: 3.1%; --language-color: #178600"></span><span class="segment" style="--share: 2.8%; --language-color: #89e051"></span><span class="segment" style="--share: 2.3%; --language-color: #3572A5"></span></div>
+          <div class="distribution"><span class="segment" style="--share: 74.0%; --language-color: #dea584"></span><span class="segment" style="--share: 18.1%; --language-color: #3178c6"></span><span class="segment" style="--share: 3.0%; --language-color: #178600"></span><span class="segment" style="--share: 2.7%; --language-color: #89e051"></span><span class="segment" style="--share: 2.2%; --language-color: #3572A5"></span></div>
           <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
       <span class="language-dot"></span>
       <span class="language-name">Rust</span>
-      <span class="percentage">73.0%</span>
+      <span class="percentage">74.0%</span>
     </span>
 <span class="language" data-language="TypeScript" style="--index: 1; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">18.8%</span>
+      <span class="percentage">18.1%</span>
     </span>
 <span class="language" data-language="C#" style="--index: 2; --language-color: #178600">
       <span class="language-dot"></span>
       <span class="language-name">C#</span>
-      <span class="percentage">3.1%</span>
+      <span class="percentage">3.0%</span>
     </span>
 <span class="language" data-language="Shell" style="--index: 3; --language-color: #89e051">
       <span class="language-dot"></span>
       <span class="language-name">Shell</span>
-      <span class="percentage">2.8%</span>
+      <span class="percentage">2.7%</span>
     </span>
 <span class="language" data-language="Python" style="--index: 4; --language-color: #3572A5">
       <span class="language-dot"></span>
       <span class="language-name">Python</span>
-      <span class="percentage">2.3%</span>
+      <span class="percentage">2.2%</span>
     </span></div>
         </section>
 
