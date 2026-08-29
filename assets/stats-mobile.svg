@@ -282,31 +282,31 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 58.4%; --language-color: #dea584"></span><span class="segment" style="--share: 29.0%; --language-color: #3178c6"></span><span class="segment" style="--share: 4.8%; --language-color: #7355dd"></span><span class="segment" style="--share: 4.3%; --language-color: #89e051"></span><span class="segment" style="--share: 3.5%; --language-color: #3572A5"></span></div>
+          <div class="distribution"><span class="segment" style="--share: 53.6%; --language-color: #dea584"></span><span class="segment" style="--share: 30.2%; --language-color: #3178c6"></span><span class="segment" style="--share: 7.9%; --language-color: #f34b7d"></span><span class="segment" style="--share: 4.4%; --language-color: #7355dd"></span><span class="segment" style="--share: 4.0%; --language-color: #89e051"></span></div>
           <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
       <span class="language-dot"></span>
       <span class="language-name">Rust</span>
-      <span class="percentage">58.4%</span>
+      <span class="percentage">53.6%</span>
     </span>
 <span class="language" data-language="TypeScript" style="--index: 1; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">29.0%</span>
+      <span class="percentage">30.2%</span>
     </span>
-<span class="language" data-language="C#" style="--index: 2; --language-color: #7355dd">
+<span class="language" data-language="C++" style="--index: 2; --language-color: #f34b7d">
+      <span class="language-dot"></span>
+      <span class="language-name">C++</span>
+      <span class="percentage">7.9%</span>
+    </span>
+<span class="language" data-language="C#" style="--index: 3; --language-color: #7355dd">
       <span class="language-dot"></span>
       <span class="language-name">C#</span>
-      <span class="percentage">4.8%</span>
+      <span class="percentage">4.4%</span>
     </span>
-<span class="language" data-language="Shell" style="--index: 3; --language-color: #89e051">
+<span class="language" data-language="Shell" style="--index: 4; --language-color: #89e051">
       <span class="language-dot"></span>
       <span class="language-name">Shell</span>
-      <span class="percentage">4.3%</span>
-    </span>
-<span class="language" data-language="Python" style="--index: 4; --language-color: #3572A5">
-      <span class="language-dot"></span>
-      <span class="language-name">Python</span>
-      <span class="percentage">3.5%</span>
+      <span class="percentage">4.0%</span>
     </span></div>
         </section>
 
