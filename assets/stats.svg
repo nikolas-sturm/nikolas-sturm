@@ -1,6 +1,6 @@
 <svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
   <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
-  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 47 commits in 2026, 63 pull requests, 32 issues, 3 contributed repositories, rank B-.</desc>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 54 commits in 2026, 63 pull requests, 32 issues, 3 contributed repositories, rank B-.</desc>
   <foreignObject width="960" height="240">
     <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
       <style>
@@ -282,31 +282,31 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 37.1%; --language-color: #f34b7d"></span><span class="segment" style="--share: 27.6%; --language-color: #dea584"></span><span class="segment" style="--share: 26.1%; --language-color: #3178c6"></span><span class="segment" style="--share: 5.2%; --language-color: #DA3434"></span><span class="segment" style="--share: 4.0%; --language-color: #89e051"></span></div>
+          <div class="distribution"><span class="segment" style="--share: 37.7%; --language-color: #f34b7d"></span><span class="segment" style="--share: 26.8%; --language-color: #3178c6"></span><span class="segment" style="--share: 26.6%; --language-color: #dea584"></span><span class="segment" style="--share: 5.0%; --language-color: #DA3434"></span><span class="segment" style="--share: 3.9%; --language-color: #89e051"></span></div>
           <div class="language-list"><span class="language" data-language="C++" style="--index: 0; --language-color: #f34b7d">
       <span class="language-dot"></span>
       <span class="language-name">C++</span>
-      <span class="percentage">37.1%</span>
+      <span class="percentage">37.7%</span>
     </span>
-<span class="language" data-language="Rust" style="--index: 1; --language-color: #dea584">
-      <span class="language-dot"></span>
-      <span class="language-name">Rust</span>
-      <span class="percentage">27.6%</span>
-    </span>
-<span class="language" data-language="TypeScript" style="--index: 2; --language-color: #3178c6">
+<span class="language" data-language="TypeScript" style="--index: 1; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">26.1%</span>
+      <span class="percentage">26.8%</span>
+    </span>
+<span class="language" data-language="Rust" style="--index: 2; --language-color: #dea584">
+      <span class="language-dot"></span>
+      <span class="language-name">Rust</span>
+      <span class="percentage">26.6%</span>
     </span>
 <span class="language" data-language="CMake" style="--index: 3; --language-color: #DA3434">
       <span class="language-dot"></span>
       <span class="language-name">CMake</span>
-      <span class="percentage">5.2%</span>
+      <span class="percentage">5.0%</span>
     </span>
 <span class="language" data-language="Shell" style="--index: 4; --language-color: #89e051">
       <span class="language-dot"></span>
       <span class="language-name">Shell</span>
-      <span class="percentage">4.0%</span>
+      <span class="percentage">3.9%</span>
     </span></div>
         </section>
 
@@ -322,7 +322,7 @@
   </div>
             <div class="metric ">
     <span class="label">Commits / 2026</span>
-    <span class="value">47</span>
+    <span class="value">54</span>
     
   </div>
             <div class="metric ">
@@ -343,7 +343,7 @@
             <div class="metric rank">
     <span class="label">Rank</span>
     <span class="value">B-</span>
-    <span class="detail">Top 64.6%</span>
+    <span class="detail">Top 64.3%</span>
   </div>
           </div>
         </section>
