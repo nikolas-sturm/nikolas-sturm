@@ -282,31 +282,31 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 37.6%; --language-color: #f34b7d"></span><span class="segment" style="--share: 27.5%; --language-color: #dea584"></span><span class="segment" style="--share: 26.2%; --language-color: #3178c6"></span><span class="segment" style="--share: 4.9%; --language-color: #DA3434"></span><span class="segment" style="--share: 3.7%; --language-color: #89e051"></span></div>
-          <div class="language-list"><span class="language" data-language="C++" style="--index: 0; --language-color: #f34b7d">
-      <span class="language-dot"></span>
-      <span class="language-name">C++</span>
-      <span class="percentage">37.6%</span>
-    </span>
-<span class="language" data-language="Rust" style="--index: 1; --language-color: #dea584">
+          <div class="distribution"><span class="segment" style="--share: 34.4%; --language-color: #dea584"></span><span class="segment" style="--share: 34.0%; --language-color: #f34b7d"></span><span class="segment" style="--share: 23.8%; --language-color: #3178c6"></span><span class="segment" style="--share: 4.5%; --language-color: #DA3434"></span><span class="segment" style="--share: 3.4%; --language-color: #89e051"></span></div>
+          <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
       <span class="language-dot"></span>
       <span class="language-name">Rust</span>
-      <span class="percentage">27.5%</span>
+      <span class="percentage">34.4%</span>
+    </span>
+<span class="language" data-language="C++" style="--index: 1; --language-color: #f34b7d">
+      <span class="language-dot"></span>
+      <span class="language-name">C++</span>
+      <span class="percentage">34.0%</span>
     </span>
 <span class="language" data-language="TypeScript" style="--index: 2; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">26.2%</span>
+      <span class="percentage">23.8%</span>
     </span>
 <span class="language" data-language="CMake" style="--index: 3; --language-color: #DA3434">
       <span class="language-dot"></span>
       <span class="language-name">CMake</span>
-      <span class="percentage">4.9%</span>
+      <span class="percentage">4.5%</span>
     </span>
 <span class="language" data-language="Shell" style="--index: 4; --language-color: #89e051">
       <span class="language-dot"></span>
       <span class="language-name">Shell</span>
-      <span class="percentage">3.7%</span>
+      <span class="percentage">3.4%</span>
     </span></div>
         </section>
 
