@@ -282,31 +282,31 @@
           <div class="heading">
             <div><span class="eyebrow">GitHub / languages</span><h2>Most used</h2></div>
           </div>
-          <div class="distribution"><span class="segment" style="--share: 40.2%; --language-color: #dea584"></span><span class="segment" style="--share: 29.4%; --language-color: #f34b7d"></span><span class="segment" style="--share: 21.7%; --language-color: #3178c6"></span><span class="segment" style="--share: 4.8%; --language-color: #F05138"></span><span class="segment" style="--share: 3.9%; --language-color: #DA3434"></span></div>
+          <div class="distribution"><span class="segment" style="--share: 40.3%; --language-color: #dea584"></span><span class="segment" style="--share: 29.0%; --language-color: #f34b7d"></span><span class="segment" style="--share: 21.3%; --language-color: #3178c6"></span><span class="segment" style="--share: 5.6%; --language-color: #F05138"></span><span class="segment" style="--share: 3.8%; --language-color: #DA3434"></span></div>
           <div class="language-list"><span class="language" data-language="Rust" style="--index: 0; --language-color: #dea584">
       <span class="language-dot"></span>
       <span class="language-name">Rust</span>
-      <span class="percentage">40.2%</span>
+      <span class="percentage">40.3%</span>
     </span>
 <span class="language" data-language="C++" style="--index: 1; --language-color: #f34b7d">
       <span class="language-dot"></span>
       <span class="language-name">C++</span>
-      <span class="percentage">29.4%</span>
+      <span class="percentage">29.0%</span>
     </span>
 <span class="language" data-language="TypeScript" style="--index: 2; --language-color: #3178c6">
       <span class="language-dot"></span>
       <span class="language-name">TypeScript</span>
-      <span class="percentage">21.7%</span>
+      <span class="percentage">21.3%</span>
     </span>
 <span class="language" data-language="Swift" style="--index: 3; --language-color: #F05138">
       <span class="language-dot"></span>
       <span class="language-name">Swift</span>
-      <span class="percentage">4.8%</span>
+      <span class="percentage">5.6%</span>
     </span>
 <span class="language" data-language="CMake" style="--index: 4; --language-color: #DA3434">
       <span class="language-dot"></span>
       <span class="language-name">CMake</span>
-      <span class="percentage">3.9%</span>
+      <span class="percentage">3.8%</span>
     </span></div>
         </section>
 
