@@ -1,6 +1,6 @@
 <svg width="720" height="380" viewBox="0 0 720 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stats-title stats-description">
   <title id="stats-title">Nikolas Sturm's GitHub statistics</title>
-  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 88 commits in 2026, 73 pull requests, 32 issues, 5 contributed repositories, rank B.</desc>
+  <desc id="stats-description">Nikolas Sturm&apos;s GitHub statistics: 23 stars, 81 commits in 2026, 67 pull requests, 32 issues, 4 contributed repositories, rank B.</desc>
   <foreignObject width="720" height="380">
     <div xmlns="http://www.w3.org/1999/xhtml" class="frame mobile">
       <style>
@@ -322,12 +322,12 @@
   </div>
             <div class="metric ">
     <span class="label">Commits / 2026</span>
-    <span class="value">88</span>
+    <span class="value">81</span>
     
   </div>
             <div class="metric ">
     <span class="label">Pull requests</span>
-    <span class="value">73</span>
+    <span class="value">67</span>
     
   </div>
             <div class="metric ">
@@ -337,13 +337,13 @@
   </div>
             <div class="metric ">
     <span class="label">Contributed repos</span>
-    <span class="value">5</span>
+    <span class="value">4</span>
     
   </div>
             <div class="metric rank">
     <span class="label">Rank</span>
     <span class="value">B</span>
-    <span class="detail">Top 60.9%</span>
+    <span class="detail">Top 62.0%</span>
   </div>
           </div>
         </section>
